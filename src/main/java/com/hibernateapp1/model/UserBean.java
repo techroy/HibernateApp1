@@ -8,6 +8,8 @@ public class UserBean {
 
 	private String userPassword;
 
+	private String userType;
+
 	public int getId() {
 		return id;
 	}
@@ -32,11 +34,17 @@ public class UserBean {
 		this.userPassword = userPassword;
 	}
 
+	public String getUserType() {
+		return userType;
+	}
+
+	public void setUserType(String userType) {
+		this.userType = userType;
+	}
+
 	@Override
 	public String toString() {
 		return "UserBean [id=" + id + ", userName=" + userName + ", userPassword=" + userPassword + "]";
 	}
-	
-	
 
 }

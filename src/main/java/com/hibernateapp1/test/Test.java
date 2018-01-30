@@ -27,8 +27,8 @@ public class Test {
 		UserBean userBean = new UserBean();
 
 		userBean.setId(4);
-		userBean.setUserName("Iain");
-		userBean.setUserPassword("iain123");
+		userBean.setUserName("max");
+		userBean.setUserPassword("max123");
 
 		int id  = (Integer)session.save(userBean);//insert query
 		
